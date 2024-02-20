@@ -5,7 +5,7 @@ Streamlit component that allows you to create dynamically sized textbox with tex
 ## Installation instructions
 
 ```sh
-pip install streamlit_dynamic_textbox
+pip install -i https://test.pypi.org/simple/ streamlit-dynamic-textbox==0.0.6
 ```
 
 ## Usage instructions
