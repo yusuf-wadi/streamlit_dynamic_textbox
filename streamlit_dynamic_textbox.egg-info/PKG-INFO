@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: streamlit-dynamic-textbox
+Version: 0.0.6
+Summary: Streamlit component that allows you to create dynamically sized textbox with text streaming
+Home-page: 
+Author: Yusuf Wadi
+Author-email: yusufwadi1@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=0.63
+Provides-Extra: devel
+Requires-Dist: wheel; extra == "devel"
+Requires-Dist: pytest==7.4.0; extra == "devel"
+Requires-Dist: playwright==1.39.0; extra == "devel"
+Requires-Dist: requests==2.31.0; extra == "devel"
+Requires-Dist: pytest-playwright-snapshot==1.0; extra == "devel"
+Requires-Dist: pytest-rerunfailures==12.0; extra == "devel"
+
+# streamlit-dynamic-textbox
+
+Streamlit component that allows you to create dynamically sized textbox with text streaming
+
+## Installation instructions
+
+```sh
+pip install streamlit_dynamic_textbox
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from streamlit_dynamic_textbox import dynamic_textbox
+
+value = my_component()
+
+st.write(value)
+```
